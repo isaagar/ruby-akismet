@@ -1,5 +1,5 @@
 ruby-akismet (2.0.0-1) UNRELEASED; urgency=medium
 
-  * Initial release (Closes: #nnnn)
+  * Initial release (Closes: #817179)
 
- -- Sagar Ippalpalli <debian@debian.mygit.org>  Wed, 09 Mar 2016 13:29:45 +0530
+ -- Sagar Ippalpalli <i.vikram15@gmail.com>  Wed, 09 Mar 2016 13:29:45 +0530
