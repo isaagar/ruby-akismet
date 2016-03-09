@@ -1,0 +1,23 @@
+Source: ruby-akismet
+Section: ruby
+Priority: optional
+Maintainer: Debian Ruby Extras Maintainers <pkg-ruby-extras-maintainers@lists.alioth.debian.org>
+Uploaders: Sagar Ippalpalli <>
+Build-Depends: debhelper (>= 9~),
+               gem2deb,
+               rake
+Standards-Version: 3.9.7
+Vcs-Git: https://anonscm.debian.org/git/pkg-ruby-extras/ruby-akismet.git
+Vcs-Browser: https://anonscm.debian.org/cgit/pkg-ruby-extras/ruby-akismet.git
+Homepage: http://github.com/jonahb/akismet
+Testsuite: autopkgtest-pkg-ruby
+XS-Ruby-Versions: all
+
+Package: ruby-akismet
+Architecture: all
+XB-Ruby-Versions: ${ruby:Versions}
+Depends: ruby | ruby-interpreter,
+         ${misc:Depends},
+         ${shlibs:Depends}
+Description: A Ruby client for the Akismet API
+ <insert long description, indented with spaces>
